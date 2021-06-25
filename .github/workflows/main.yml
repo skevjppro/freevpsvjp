@@ -37,7 +37,7 @@ jobs:
         copy "Visual Studio 2019.lnk" "C:\Users\Public\Desktop\Visual Studio 2019.lnk"
     - name: Open Tunnel.
       run: Start-Process Powershell -ArgumentList '-Noexit -Command ".\ngrok\ngrok.exe tcp --region ap 3389"'
-    - name: Thông tin RPD miễn phí của bạn CPU 2 Core - 7GB Ram - 256 SSD.
+    - name: SkeVPS INFORMATION
       run: cmd /c start.bat
     - name: Made Successfully! You Can Close Tab Now.
       run: cmd /c loop.bat
