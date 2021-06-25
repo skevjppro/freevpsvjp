@@ -1,6 +1,6 @@
 name: vinhuptoday5
 
-on: workflow_dispatch
+on: repository_dispatch
 
 jobs:
   build:
